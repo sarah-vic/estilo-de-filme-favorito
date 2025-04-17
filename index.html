@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filme favorito</title>
+</head>
+<body>
+    <center>
+        <h1>Estilo de filme favorito</h1>
+
+        <script>
+            var filmes = parseInt(prompt(`Escolha seu estilo de fime favorito
+            1 - Ação
+            2 - Comédia
+            3 - Drama
+            4 - Terror
+            5 - Ficcção Científica
+            6 - Romance`
+            ))
+
+            switch(filmes) {
+                case 1:
+                document.write("Seu estilo favorito de filme é: Ação!")
+                break;
+                case 2:
+                document.write("Seu estilo favorito de filme é: Comédia!")
+                break;
+                case 3:
+                document.write("Seu estilo favorito de filme é: Drama!")
+                break;
+                case 4:
+                document.write("Seu estilo favorito de filme é: Terror!")
+                break;
+                case 5:
+                document.write("Seu estilo favorito de filme é: Ficcção Científica!")
+                break;
+                case 6:
+                document.write("Seu estilo favorito de filme é: Romance!")
+                break;
+                default:
+                document.write("A opção digitada não consta dentre as opções fornecidas...")
+            }
+        </script>
+    </center>
+</body>
+</html>
